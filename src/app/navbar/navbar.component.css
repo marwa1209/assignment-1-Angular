@@ -1,0 +1,8 @@
+.navbar {
+    transition: padding 9s !important;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: white;
+}

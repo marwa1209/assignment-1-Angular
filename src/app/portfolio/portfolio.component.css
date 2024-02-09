@@ -1,0 +1,30 @@
+.layer {
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+}
+
+.layer:hover {
+    opacity: 1;
+}
+
+.star-ico::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    width: 90px;
+    height: 5px;
+    background-color: #2C3E50;
+}
+
+.star-ico::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    width: 90px;
+    height: 5px;
+    background-color: #2C3E50;
+}

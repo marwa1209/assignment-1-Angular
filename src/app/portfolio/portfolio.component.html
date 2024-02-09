@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="d-flex justify-content-center align-items-center flex-column  pt-4">
+        <h1 class="text-navy fw-bold text-center pt-2">PORTFOLIO COMPONENT</h1>
+        <div class="star-ico position-relative ">
+            <i class="fa-solid fa-star position-relative "></i>
+        </div>
+    </div>
+    <div class="row py-3 g-5">
+        <div class="col-lg-4 col-md-6 " *ngFor="let src of srcs">
+            <div class=" position-relative ">
+                <picture class="rounded-3  ">
+                    <img class="w-100 rounded-3" [src]="src.imgpath" [alt]="src.alt">
+                    <div
+                        class="layer position-absolute start-0 end-0 bottom-0 top-0  d-flex justify-content-center align-items-center rounded-3 ">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </picture>
+
+            </div>
+        </div>
+    </div>
+</div>

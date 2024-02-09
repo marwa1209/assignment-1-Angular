@@ -1,0 +1,33 @@
+<div id="contact" class="py-3">
+    <div class="container ">
+        <div class="d-flex justify-content-center align-items-center flex-column pb-5">
+            <h1 class="text-navy fw-bold text-center pt-2">CONATCT SECTION</h1>
+            <div class="star-ico position-relative ">
+                <i class="fa-solid fa-star position-relative "></i>
+            </div>
+        </div>
+        <div class="w-50 m-auto mb-5">
+            <div class="mb-5">
+                <label *ngIf="inputValue!=''" for="exampleInputEmail1" class="form-label text-main">userName :</label>
+                <input type="text" class="form-control border-0 border-bottom position-relative top-0"
+                    id="exampleInputEmail1" placeholder="userName" [(ngModel)]="inputValue">
+            </div>
+            <div class="mb-5">
+                <label *ngIf="inputAgeValue!=''" for="age" class="form-label text-main">userAge :</label>
+                <input type="text" class="form-control border-0 border-bottom position-relative top-0"
+                    id="age" placeholder="userAge" [(ngModel)]="inputAgeValue">
+            </div>
+                        <div class="mb-5">
+                            <label *ngIf="inputEmailValue!=''" for="Email" class="form-label text-main">userEmail :</label>
+                            <input type="text" class="form-control border-0 border-bottom position-relative top-0" id="Email"
+                                placeholder="userEmail" [(ngModel)]="inputEmailValue">
+                        </div>
+                                                <div class="mb-5">
+                                                    <label *ngIf="inputPassValue!=''" for="pass" class="form-label text-main">userPassword :</label>
+                                                    <input type="text" class="form-control border-0 border-bottom position-relative top-0" id="pass"
+                                                        placeholder="userPassword" [(ngModel)]="inputPassValue">
+                                                </div>
+            <button type="submit" class="btn bg-main text-white">Send Message</button>
+        </div>
+    </div>
+</div>

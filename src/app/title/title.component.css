@@ -1,0 +1,21 @@
+.star-ico::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    width: 90px;
+    height: 5px;
+    background-color: white;
+}
+.star-ico{
+    color: white;
+}
+.star-ico::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    width: 90px;
+    height: 5px;
+    background-color: white;
+}

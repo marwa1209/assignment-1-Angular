@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+.bg-navy {
+    background-color: #2C3E50;
+}
+
+a {
+    color: inherit !important;
+}
+
+ul {
+    list-style: none;
+}
+
+.bg-main {
+    background-color: #1abc9c;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.dark-navy {
+    background-color: #1A252F;
+}
+
+.vh-85 {
+    height: 85vh !important;
+}
+.text-navy {
+    color: #2C3E50;
+}
+.star-ico{
+    color: #2C3E50;
+}
+.text-main{
+    color: #1abc9c;
+}
